@@ -1,0 +1,19 @@
+ creating redirection function
+ 
+<?php
+
+    if(!function_exists('redirect')){
+        function redirect($page){
+            header('location:'.$page);
+            exit();
+        }
+        
+    } 
+ ?>
+ 
+ 
+ call the function
+ 
+ <?php
+ 
+ redirect('http://google.cd');
