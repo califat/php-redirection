@@ -17,3 +17,5 @@
  <?php
  
  redirect('http://google.cd');
+
+
